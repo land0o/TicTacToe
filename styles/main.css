@@ -1,0 +1,35 @@
+.header {
+  text-align: center;
+}
+
+/* tic tac toe grid */
+.grid_layout {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  background: lightcyan;
+  width: 40%;
+  margin-left: 450px;
+}
+
+.grid {
+  border: 2px solid rebeccapurple;
+  background: ghostwhite;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  margin: 5px 5px 5px 5px;
+  height: 70px;
+}
+.grid:hover {
+  background: cyan;
+}
+/* players section */
+.players_section {
+  border: 3px solid blueviolet;
+  width: 25%;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+}
+
+/* end tic tac toe grid */
